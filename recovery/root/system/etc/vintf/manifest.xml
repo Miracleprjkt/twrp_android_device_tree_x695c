@@ -4,11 +4,6 @@
 -->
 <manifest version="2.0" type="framework">
     <hal format="hidl">
-        <name>vendor.dolby.hardware.dms</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::IDms/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>android.frameworks.displayservice</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
